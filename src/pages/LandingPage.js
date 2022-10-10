@@ -1,6 +1,4 @@
 import React from "react";
-import { useContext } from "react";
-import CounterText from "./CounterText";
 
 const LandingPage = () => {
     const {count} = useContext(CounterText);
